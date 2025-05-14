@@ -6,7 +6,7 @@ A Chrome extension and FastAPI backend to automatically detect, extract, and ana
 
 ## Screenshot
 
-![Terms Analyzer Screenshot](assets/TermsAnalyzer.png)
+![Terms Analyzer Screenshot](TermsAnalyzer.png)
 
 ---
 
