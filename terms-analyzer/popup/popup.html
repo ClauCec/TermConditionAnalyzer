@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Terms Analyzer</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Terms Analyzer</h1>
+        <div class="api-key-section">
+            <input type="password" id="apiKey" placeholder="Enter API Key">
+            <button id="saveApiKey">Save</button>
+        </div>
+        <div id="apiKeyStatus" class="api-key-status">API Key: Not Set</div>
+        <div class="analysis-section">
+            <textarea id="termsText" placeholder="Paste terms and conditions here..."></textarea>
+            <button id="analyzeButton">Analyze</button>
+        </div>
+        <div id="result" class="result-section">
+            <h2>Analysis Result</h2>
+            <div id="analysisContent"></div>
+        </div>
+        <div id="loading" class="loading hidden">
+            Analyzing...
+        </div>
+    </div>
+    <script src="../api/mistral.js"></script>
+    <script src="popup.js"></script>
+</body>
+</html> 

@@ -1,0 +1,29 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+
+# Node/JS
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Logs
+*.log
+
+# Chrome Extension build artifacts (if any)
+dist/
+build/
+
+# Unknown .git directory
+TermsAnalyzer.git/ 

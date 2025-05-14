@@ -1,0 +1,3 @@
+"""
+Terms Analyzer Backend Application
+""" 
